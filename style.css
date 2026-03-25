@@ -1946,10 +1946,7 @@ footer>div>a:visited {
 
     }
 
-    .left-pro.left-pro1:has(input:checked) section:last-child .project-content-wrap1 {
-        /* padding-left: 0;
-        margin-left: 75%; */
-    }
+    
 
     .left-pro.left-pro2:has(input:checked) section:last-child .project-content-wrap1 {
         padding-left: 0%;
