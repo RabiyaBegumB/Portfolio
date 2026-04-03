@@ -1103,13 +1103,13 @@ input:checked+label .wave {
 /* content */
 .project-content-wrap1 h1 {
     opacity: 0;
-    font-size: 20px;
+    font-size: 20.0px;
     animation: pro-title 1s 2s linear forwards;
 }
 
 .left-pro h2 {
-    color: rgba(53, 200, 249, 1);
-    font-size: 35px;
+    color: rgba(53, 200, 248, 1);
+    font-size: 34px;
     opacity: 0;
     transform: translateY(-80px);
     font-weight: 400;
@@ -1444,32 +1444,32 @@ input:checked+label .wave {
 
 /* edu1 */
 .edu1>div>div {
-    background: conic-gradient(black 0% 78%, white 22% 100%);
+    background: conic-gradient(black 0% 77%, white 21% 100%);
 }
 
 .edu1>div>div::before {
-    top: 33%;
-    left: 8%;
+    top: 37%;
+    left: 7%;
 }
 
 /* edu2 */
 .edu2>div>div {
-    background: conic-gradient(black 0% 85%, white 15% 100%);
+    background: conic-gradient(black 0% 84%, white 14% 100%);
 }
 
 .edu2>div>div::before {
-    top: 16%;
-    left: 16%;
+    top: 19%;
+    left: 14%;
 }
 
 /* edu3 */
 .edu3>div>div {
-    background: conic-gradient(black 0% 83%, white 17% 100%);
+    background: conic-gradient(black 0% 82%, white 16% 100%);
 }
 
 .edu3>div>div::before {
-    top: 21%;
-    left: 12%;
+    top: 23%;
+    left: 11%;
 }
 
 .edu>div>div>div {
