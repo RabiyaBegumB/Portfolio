@@ -798,7 +798,7 @@ body label {
 
     font-weight: 500;
 
-    font-size: 13px;
+    font-size: 18px;
 
 }
 
@@ -823,22 +823,18 @@ body label {
     opacity: 0;
 }
 
-/* 2. The Fix: Switch display exactly when the wave ends (5s) */
-/* This selector overrides the !important by being more specific */
 .left-pro:has(input:checked) section:last-child .project-content-wrap1,
 .left-pro:has(input:checked) section:last-child .project-content-wrap2 {
     display: flex !important;
-    /* Forces the layout switch */
     animation: fadeInContent 1s 2s forwards;
     padding-bottom: 175px;
-    /* padding-left: 250px; */
+    padding-top: 10%;
 }
 
 .left-pro:has(input:checked) section:last-child .project-content-wrap1 {
     padding-left: 250px;
 }
 
-/* 4. Ensure the parent container is ready for the flex children */
 .left-pro:has(input:checked)>section:last-child {
     width: 70%;
     padding-left: 0px;
@@ -1107,12 +1103,13 @@ input:checked+label .wave {
 /* content */
 .project-content-wrap1 h1 {
     opacity: 0;
+    font-size: 20px;
     animation: pro-title 1s 2s linear forwards;
 }
 
 .left-pro h2 {
-
-    font-size: 59.5px;
+    color: rgba(53, 200, 249, 1);
+    font-size: 35px;
     opacity: 0;
     transform: translateY(-80px);
     font-weight: 400;
@@ -1447,32 +1444,32 @@ input:checked+label .wave {
 
 /* edu1 */
 .edu1>div>div {
-    background: conic-gradient(black 0% 60%, white 40% 100%);
+    background: conic-gradient(black 0% 78%, white 22% 100%);
 }
 
 .edu1>div>div::before {
-    top: 79%;
-    left: 25%;
+    top: 33%;
+    left: 8%;
 }
 
 /* edu2 */
 .edu2>div>div {
-    background: conic-gradient(black 0% 70%, white 30% 100%);
+    background: conic-gradient(black 0% 85%, white 15% 100%);
 }
 
 .edu2>div>div::before {
-    top: 58%;
-    left: 9%;
+    top: 16%;
+    left: 16%;
 }
 
 /* edu3 */
 .edu3>div>div {
-    background: conic-gradient(black 0% 85%, white 15% 100%);
+    background: conic-gradient(black 0% 83%, white 17% 100%);
 }
 
 .edu3>div>div::before {
-    top: 18%;
-    left: 15%;
+    top: 21%;
+    left: 12%;
 }
 
 .edu>div>div>div {
@@ -1889,11 +1886,15 @@ footer>div>a:visited {
         }
 
     }
-
+    .project-content-wrap2>p:first-child{
+        padding-top: 10%;
+    }
+    .left-pro.left-pro1:has(input:checked) section:last-child .project-content-wrap1{
+        padding-top: 10%
+    }
     .left-pro1:first-child input:checked+label img {
 
         /* top: 50%; */
-
         left: 50%;
 
         transform: translate(130%, 0%) scale(1.2);

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #bg-clr{
+            box-sizing: border-box;
+            padding: 0px;
+            margin: 0px;
+            height: 550px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            background:black;
+            padding-top: 50px;
+            gap: 30px;
+        }
+        #img2{
+            display: none;
+        }
+        #btn{
+            width: 100px;
+            height: 50px;
+            background-color: black;
+            border: 1px solid #d97e13;
+            border-radius: 30px;
+            align-self: center;
+            font-size: 25px;
+            color: #d97e13;
+        }
+    </style>
+</head>
+<body id="bg-clr">
+    <img src="./img1.png" alt="off-bulb" id="img1" width="300px" height="490px"/>
+    <img src="./img2.png" alt="on-bulb" id="img2" width="300px" height="500px"/>
+    <button id="btn" onclick="toggle()">ON</button>
+    <script src="./index.js"></script>
+</body>
+</html>
